@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://coursora-os.vercel.app/sitemap.xml
