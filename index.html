@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="google-site-verification" content="jDSLpLixrt2HtUDu_5Ao-N-vICyit6tMCqablT30GE0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Theme jald se jald set karo taaki light/dark flash na ho page load pe -->
+  <script>
+    (function () {
+      const saved = localStorage.getItem("theme");
+      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      if (saved === "dark" || (!saved && prefersDark)) {
+        document.documentElement.classList.add("dark");
+      }
+    })();
+  </script>
+  <title>Coursora | Free & Paid Online Courses — Udemy, Coursera, edX</title>
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/icons/favicon-48.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16.png" />
+  <link rel="apple-touch-icon" href="assets/icons/pwa-192.png" />
+  <meta name="keywords" content="free online courses, paid courses, Udemy, Coursera, edX, course finder, Coursora, coding courses, web development courses" />
+  <meta name="description" content="Discover 125+ free and paid online courses from Udemy, Coursera, edX and more. Search, filter by category, and open official provider pages — fast, free, no signup." />
+  <link rel="canonical" href="https://course-map-pro.vercel.app/" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+  <link rel="preconnect" href="https://i.ibb.co" crossorigin />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://course-map-pro.vercel.app/" />
+  <meta property="og:title" content="Coursora | Free & Paid Courses — Udemy, Coursera, edX" />
+  <meta property="og:description" content="Browse 125+ free and paid courses. Filter by category, provider and price. Open official pages on Udemy, Coursera, edX and more." />
+  <meta property="og:image" content="https://course-map-pro.vercel.app/assets/og-image.webp" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:site_name" content="Coursora" />
+  <!-- TODO: Coursora ka apna 1200x630px social-share banner image yahan add karna (abhi koi nahi hai, KRIXORA ka logo use nahi karna kyunki wo alag brand hai) -->
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Coursora | Free & Paid Online Courses" />
+  <meta name="twitter:description" content="125+ free and paid courses from Udemy, Coursera, edX and more. Search, filter, learn." />
+  <meta name="twitter:image" content="https://course-map-pro.vercel.app/assets/og-image.webp" />
+  
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#2f8cff" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            // Portfolio ke brand colors — inhe change karne se poori site ka theme update ho jaata hai
+            blue: {
+              50: "#eef6ff",
+              100: "#dbeafe",
+              200: "#bfdbfe",
+              300: "#8fc4ff",
+              400: "#5aa9ff",
+              500: "#2f8cff",
+              600: "#2f8cff",
+              700: "#1673e6",
+              800: "#1469d2",
+              900: "#0f4f9e",
+            },
+            gray: {
+              50: "#f8fafc",
+              100: "#eef2f8",
+              200: "#e2e8f0",
+              300: "#cbd5e1",
+              400: "#94a3b8",
+              500: "#7c88a0",
+              600: "#5b6a85",
+              700: "#1e2740",
+              800: "#0e1526",
+              900: "#080c15",
+              950: "#05070d",
+            },
+          },
+          boxShadow: {
+            glow: "0 0 45px rgba(47, 140, 255, 0.18)",
+          },
+          transitionTimingFunction: {
+            brand: "cubic-bezier(0.22, 1, 0.36, 1)",
+          },
+        },
+      },
+    };
+  </script>
+  <script src="js/theme.js" defer></script>
+  <script src="js/reveal.js" defer></script>
+  <script src="js/script.js" defer></script>
+  <script src="js/premium.js" defer></script>
+  <script src="js/advanced.js" defer></script>
+  <link rel="stylesheet" href="css/style.css" />
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+  
+  <!-- Structured data: search engines ko batata hai ki ye ek course listing site hai -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Coursora",
+    "url": "https://course-map-pro.vercel.app/",
+    "description": "Search and discover free and paid online courses across Information Technology, Business, Healthcare, Art, and Environmental Studies from top platforms like Udemy, Coursera, edX, and FutureLearn.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://course-map-pro.vercel.app/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Coursora",
+    "url": "https://course-map-pro.vercel.app/",
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "Any",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "description": "Free installable PWA to discover 125+ free and paid online courses from major providers."
+  }
+  </script>
+</head>
+
+<body class="home-page bg-white dark:bg-gray-950 transition-colors duration-300">
+  <div class="home-ambient" aria-hidden="true">
+    <div class="home-ambient__orb home-ambient__orb--1"></div>
+    <div class="home-ambient__orb home-ambient__orb--2"></div>
+    <div class="home-ambient__grid"></div>
+  </div>
+
+  <!-- Top scroll progress -->
+  <div class="scroll-progress" aria-hidden="true"><div class="scroll-progress__bar"></div></div>
+  <div class="header sticky top-0 z-50 bg-white/90 dark:bg-gray-950/90 backdrop-blur shadow w-full">
+    <nav class="container mx-auto flex justify-between items-center py-2 px-5">
+      <a href="index.html" class="brand flex items-center gap-2 shrink-0">
+        <img src="assets/icons/pwa-192.png" alt="Coursora logo" class="w-9 h-9 rounded-lg" width="36" height="36" />
+        <span class="text-lg font-bold text-gray-900 dark:text-white tracking-tight">
+          Cours<span class="text-blue-600">ora</span>
+        </span>
+      </a>
+      
+      <ul class="hidden md:flex items-center space-x-6 justify-center">
+        <li>
+          <a href="index.html" class="text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition">Home</a>
+        </li>
+        <li>
+          <a href="#resources" class="text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition">Courses</a>
+        </li>
+        <li>
+          <a href="#contact" class="text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition">Contact</a>
+        </li>
+        <li>
+          <button id="open-command-palette" class="hidden lg:flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400 border border-gray-200 dark:border-gray-700 rounded-lg pl-3 pr-2 py-1.5 hover:border-blue-400 dark:hover:border-blue-500 transition">
+            <i class="fas fa-magnifying-glass text-xs"></i>
+            Search
+            <kbd class="text-[10px] bg-gray-100 dark:bg-gray-800 rounded px-1.5 py-0.5 ml-1 font-sans">⌘K</kbd>
+          </button>
+        </li>
+        <li>
+          <button id="install-app-btn" class="hidden items-center gap-1.5 text-sm bg-blue-600 hover:bg-blue-700 text-white rounded-lg px-3 py-1.5 transition">
+            <i class="fas fa-arrow-down-to-bracket text-xs"></i> Install App
+          </button>
+        </li>
+        <li>
+          <button id="theme-toggle" aria-label="Toggle dark mode" class="header-icon-btn">
+            <i class="fas fa-moon dark:hidden"></i>
+            <i class="fas fa-sun hidden dark:inline"></i>
+          </button>
+        </li>
+      </ul>
+      
+      <div class="flex items-center gap-2 md:hidden">
+        <button id="theme-toggle-mobile" aria-label="Toggle dark mode" class="header-icon-btn">
+          <i class="fas fa-moon dark:hidden"></i>
+          <i class="fas fa-sun hidden dark:inline"></i>
+        </button>
+        <button id="menu-toggle" class="header-icon-btn" aria-label="Open menu">
+          <span class="menu-lines" aria-hidden="true">
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+          </span>
+        </button>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Premium disclaimer ticker under header -->
+  <div class="disclaimer-ticker" role="region" aria-label="Disclaimer">
+    <div class="disclaimer-ticker__fade disclaimer-ticker__fade--left" aria-hidden="true"></div>
+    <div class="disclaimer-ticker__fade disclaimer-ticker__fade--right" aria-hidden="true"></div>
+    <div class="disclaimer-ticker__track">
+      <div class="disclaimer-ticker__content">
+        <span class="disclaimer-ticker__badge">Disclaimer</span>
+        <span class="disclaimer-ticker__sep" aria-hidden="true">·</span>
+        <span class="disclaimer-ticker__text">We do not host, create, or sell any courses listed here. All courses belong to their original providers (Udemy, Coursera, edX, FutureLearn &amp; others). Enrolling takes you to the official site — always confirm pricing and availability there.</span>
+      </div>
+      <div class="disclaimer-ticker__content" aria-hidden="true">
+        <span class="disclaimer-ticker__badge">Disclaimer</span>
+        <span class="disclaimer-ticker__sep" aria-hidden="true">·</span>
+        <span class="disclaimer-ticker__text">We do not host, create, or sell any courses listed here. All courses belong to their original providers (Udemy, Coursera, edX, FutureLearn &amp; others). Enrolling takes you to the official site — always confirm pricing and availability there.</span>
+      </div>
+    </div>
+  </div>
+
+  <div id="mobile-menu" class="fixed top-16 right-0 bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 shadow-lg hidden z-50 w-48 rounded-bl-xl border border-gray-100 dark:border-gray-800">
+    <ul class="flex flex-col space-y-6 py-6 px-6">
+      <li>
+        <a href="index.html" class="hover:text-blue-600 dark:hover:text-blue-400 transition">Home</a>
+      </li>
+      <li>
+        <a href="#resources" class="hover:text-blue-600 dark:hover:text-blue-400 transition">Courses</a>
+      </li>
+      <li>
+        <a href="#contact" class="hover:text-blue-600 dark:hover:text-blue-400 transition">Contact</a>
+      </li>
+      <li>
+        <button id="install-app-btn-mobile" class="hidden items-center gap-2 text-blue-600 dark:text-blue-400 transition">
+          <i class="fas fa-arrow-down-to-bracket text-xs"></i> Install App
+        </button>
+      </li>
+    </ul>
+  </div>
+  
+  <!-- Hero + primary actions -->
+  <div data-reveal class="home-hero pt-8 pb-4 md:pt-10 md:pb-5 px-6 text-center">
+    <h1 class="home-hero__title text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-2">
+      Find Your Next <span class="text-blue-600">Course</span>
+    </h1>
+    <p class="text-gray-500 dark:text-gray-400 max-w-xl mx-auto text-sm md:text-base">
+      125 free and paid courses from Udemy, Coursera, edX, and more — search, filter, and start learning.
+    </p>
+  </div>
+
+  <!-- Search & filters — compact, essential only -->
+  <div class="main" id="resources">
+    <div class="filters pb-4 md:pb-5">
+      <div class="container mx-auto px-4 sm:px-6">
+        <div class="search-panel search-panel--premium max-w-3xl mx-auto">
+          <div class="relative">
+            <i class="fas fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-gray-400 text-sm pointer-events-none"></i>
+            <input type="text" id="search-text" placeholder="Search courses..." autocomplete="off"
+              class="search-panel__input" />
+          </div>
+
+          <div class="search-panel__row">
+            <select id="category" class="search-panel__select">
+              <option value="">Category</option>
+            </select>
+            <select id="type" class="search-panel__select">
+              <option value="">Type</option>
+              <option value="Free">Free</option>
+              <option value="Paid">Paid</option>
+            </select>
+            <select id="provider" class="search-panel__select">
+              <option value="">Provider</option>
+            </select>
+          </div>
+
+          <div class="search-panel__row search-panel__row--actions">
+            <button id="favorites-only" type="button" aria-pressed="false" class="search-panel__icon-btn" title="Saved only">
+              <i class="far fa-heart"></i><span class="search-panel__label">Saved</span>
+            </button>
+            <button id="clear-btn" type="button" title="Clear filters" class="search-panel__icon-btn">
+              <i class="fas fa-rotate-left text-sm"></i>
+            </button>
+            <button id="copy-link-btn" type="button" title="Copy link" class="search-panel__icon-btn">
+              <i class="fas fa-link text-sm"></i>
+            </button>
+
+          </div>
+
+          <div id="active-chips" class="active-chips" hidden></div>
+          <p id="result-count" class="result-count"></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="recent-strip" class="recent-strip max-w-3xl mx-auto px-4 sm:px-6 pb-3" hidden>
+      <div class="recent-strip__head">
+        <span>Recent</span>
+        <button type="button" id="clear-recent">Clear</button>
+      </div>
+      <div id="recent-list" class="recent-strip__list"></div>
+    </div>
+
+    <details id="how-to-use" class="how-to-use how-to-use--compact max-w-3xl mx-auto px-4 sm:px-6 pb-5">
+      <summary class="how-to-use__summary">
+        <i class="fas fa-circle-question"></i> How to use Coursora
+      </summary>
+      <ol class="how-to-use__list">
+        <li><strong>Search</strong> or filter by category, free/paid, provider.</li>
+        <li>Open <strong>Details</strong> for a quick preview, or <strong>View Course</strong> on the provider site.</li>
+        <li>Tap the <strong>heart</strong> to save. Share filters with the link button. Desktop: <kbd>⌘K</kbd> quick search.</li>
+      </ol>
+    </details>
+
+    <div class="px-4 sm:px-6 pb-2 max-w-5xl mx-auto">
+      <h2 class="text-lg md:text-xl font-bold text-gray-900 dark:text-white mb-4">
+        <i class="fas fa-graduation-cap text-blue-600"></i> All courses
+      </h2>
+    </div>
+    <div id="course-list" class="course-list" data-reveal-group></div>
+  </div>
+
+  <!-- Learning paths — after courses (secondary discovery) -->
+  <div class="max-w-5xl mx-auto px-6 pt-10 pb-12 md:pb-16" data-reveal-group id="learning-paths">
+    <h2 data-reveal class="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-1">
+      <i class="fas fa-route text-blue-600"></i> Curated Learning Paths
+    </h2>
+    <p data-reveal class="text-sm text-gray-500 dark:text-gray-400 mb-6">
+      Not sure where to start? Follow a step-by-step roadmap built from courses on this site.
+    </p>
+    <div id="learning-paths-grid" class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3"></div>
+  </div>
+  
+  
+  <!-- Contact section: form ke through Formsubmit.co ke jariye email seedha inbox mein aati hai, koi backend nahi chahiye -->
+  <div id="contact" class="bg-white dark:bg-gray-950 py-16 px-6">
+    <div data-reveal-scale class="max-w-lg mx-auto">
+      <h2 class="text-2xl font-bold text-center text-gray-800 dark:text-gray-100 mb-2">Get in Touch</h2>
+      <p class="text-center text-gray-500 dark:text-gray-400 mb-8 text-sm">
+        Found a broken link, have a course suggestion, or just want to say hi?
+      </p>
+      
+      <!-- 
+        Pehli baar form submit hone par Formsubmit.co ek confirmation email bhejega krixora404@gmail.com par,
+        usme "Activate" link pe click karna hoga tabhi form future submissions ke liye enable hoga.
+      -->
+      <form action="https://formsubmit.co/krixora404@gmail.com" method="POST" class="space-y-4">
+        <input type="hidden" name="_subject" value="New message from Coursora website" />
+        <input type="hidden" name="_captcha" value="true" />
+        
+        <div>
+          <input type="text" name="name" placeholder="Your Name" required
+            class="w-full p-3 rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+        </div>
+        
+        <div>
+          <input type="email" name="email" placeholder="Your Email" required
+            class="w-full p-3 rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+        </div>
+        
+        <div>
+          <textarea name="message" placeholder="Your Message" rows="4" required
+            class="w-full p-3 rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+        </div>
+        
+        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-800 text-white py-3 rounded-md font-semibold transition">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </div>
+  
+ <footer class="bg-gray-950 text-white py-16 border-t-4 border-blue-600">
+  <div class="max-w-4xl mx-auto px-6 text-center">
+    
+    <!-- Branding -->
+    <img src="assets/icons/pwa-192.png" alt="Coursora logo" class="w-14 h-14 rounded-xl mx-auto mb-4" width="56" height="56" />
+    <h2 class="text-2xl font-bold text-white mb-1">Cours<span class="text-blue-500">ora</span></h2>
+    
+    
+    <!-- Navigation Links -->
+    <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 mb-10 text-gray-300 font-medium text-sm">
+      <a href="index.html" class="hover:text-blue-500 transition">Home</a>
+      <a href="#contact" class="hover:text-blue-500 transition">Contact</a>
+      <a href="privacy.html" class="hover:text-blue-500 transition">Privacy</a>
+      <a href="https://krixora-portfolio.vercel.app" target="_blank" rel="noopener noreferrer" class="hover:text-blue-500 transition">Portfolio</a>
+    </div>
+    
+    <!-- Instagram link baad me add hoga -->
+    <div class="flex justify-center gap-6 mb-10">
+      <a href="https://krixora-portfolio.vercel.app" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#2f8cff] text-2xl transition-all" title="Portfolio"><i class="fas fa-globe"></i></a>
+      <a href="https://github.com/KRIXORA" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#24292F] text-2xl transition-all"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/krish-parmar-b90457400" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#0A66C2] text-2xl transition-all"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://wa.me/7224044931" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#25D366] text-2xl transition-all"><i class="fab fa-whatsapp"></i></a>
+      <a href="mailto:krixora404@gmail.com" class="text-gray-400 hover:text-[#EA4335] text-2xl transition-all"><i class="fas fa-envelope"></i></a>
+    </div>
+    
+    <!-- Legal / trust -->
+    <p class="text-xs text-gray-500 max-w-xl mx-auto mb-4 leading-relaxed">
+      Not affiliated with Udemy, Coursera, edX, FutureLearn, or any listed provider.
+      Course availability and pricing are controlled by the original platforms.
+      Catalog last reviewed: August 2026.
+    </p>
+    <p class="text-xs text-gray-600 border-t border-gray-800 pt-6 flex items-center justify-center gap-2 flex-wrap">
+      <span>© 2026</span>
+      <a href="https://krixora-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer"
+         class="inline-flex items-center gap-1.5 text-gray-400 hover:text-blue-400 transition font-medium">
+        <img src="assets/icons/krixora-mark.svg" alt="KRIXORA" class="w-4 h-4" width="16" height="16" />
+        <span>Built by KRIXORA</span>
+      </a>
+    </p>
+    
+  </div>
+</footer>
+
+<!-- Command Palette: ⌘K se koi bhi jagah se instantly course search kar sakte ho -->
+<div id="command-palette-overlay" class="hidden fixed inset-0 bg-black/50 backdrop-blur-sm z-[100] flex items-start justify-center pt-20 md:pt-28 px-4">
+  <div class="w-full max-w-xl bg-white dark:bg-gray-900 rounded-2xl shadow-2xl border border-gray-200 dark:border-gray-800 overflow-hidden">
+    <div class="flex items-center gap-3 px-4 border-b border-gray-200 dark:border-gray-800">
+      <i class="fas fa-magnifying-glass text-gray-400"></i>
+      <input id="command-palette-input" type="text" placeholder="Search all 125 courses..." autocomplete="off"
+        class="w-full py-4 bg-transparent focus:outline-none text-gray-800 dark:text-gray-100 text-sm" />
+      <kbd class="text-[10px] text-gray-400 border border-gray-300 dark:border-gray-700 rounded px-1.5 py-0.5 shrink-0">Esc</kbd>
+    </div>
+    <div id="command-palette-results" class="max-h-96 overflow-y-auto py-2"></div>
+  </div>
+</div>
+
+
+
+  <!-- Course detail drawer -->
+  <div id="course-drawer" class="course-drawer" hidden aria-hidden="true">
+    <div class="course-drawer__backdrop" data-close-drawer></div>
+    <aside class="course-drawer__panel" role="dialog" aria-modal="true" aria-labelledby="drawer-title">
+      <button type="button" class="course-drawer__close" data-close-drawer aria-label="Close"><i class="fas fa-xmark"></i></button>
+      <div id="drawer-body" class="course-drawer__body"></div>
+    </aside>
+  </div>
+
+  <!-- Shortcuts modal -->
+  <div id="shortcuts-modal" class="shortcuts-modal" hidden>
+    <div class="shortcuts-modal__backdrop" data-close-shortcuts></div>
+    <div class="shortcuts-modal__panel" role="dialog" aria-modal="true" aria-labelledby="shortcuts-title">
+      <h2 id="shortcuts-title">Keyboard shortcuts</h2>
+      <ul class="shortcuts-list">
+        <li><kbd>/</kbd> Focus search</li>
+        <li><kbd>⌘</kbd> + <kbd>K</kbd> Command palette</li>
+        <li><kbd>?</kbd> This help</li>
+        <li><kbd>Esc</kbd> Close panels</li>
+      </ul>
+      <button type="button" class="shortcuts-modal__ok" data-close-shortcuts>Got it</button>
+    </div>
+  </div>
+
+  <!-- Back to top -->
+  <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top" title="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+</body>
+
+</html>
