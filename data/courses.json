@@ -1,0 +1,1127 @@
+[
+  {
+    "category": "Information Technology",
+    "name": "CS50's Introduction to Computer Science",
+    "description": "Harvard's legendary intro to CS — covers C, Python, SQL, and web dev with famously engaging lectures.",
+    "provider": "EDX",
+    "duration": "6-18 hours per week",
+    "type": "Free",
+    "link": "https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science"
+  },
+  {
+    "category": "Information Technology",
+    "name": "Introduction to Cyber Security",
+    "description": "Beginner-friendly overview of cybersecurity threats, safe practices, and how attackers exploit systems.",
+    "provider": "Udemy",
+    "duration": "1 hour 8 min",
+    "type": "Free",
+    "link": "https://www.udemy.com/course/certified-secure-netizen/"
+  },
+  {
+    "category": "Information Technology",
+    "name": "Web Development Basics",
+    "description": "Covers HTML, CSS, and JavaScript fundamentals to build your first responsive web pages.",
+    "provider": "EDX",
+    "duration": "1 hour",
+    "type": "Free",
+    "link": "https://www.edx.org/learn/computer-science/ibm-guided-project-web-development-w-html-css-for-beginners"
+  },
+  {
+    "category": "Information Technology",
+    "name": "Google IT Automation with Python",
+    "description": "Learn Python scripting, Git, and automation to streamline IT support and system administration tasks.",
+    "provider": "Coursera",
+    "duration": "6 months (part-time)",
+    "type": "Paid",
+    "link": "https://www.coursera.org/professional-certificates/google-it-automation"
+  },
+  {
+    "category": "Business & Entrepreneurship",
+    "name": "Entrepreneurship in Emerging Economies",
+    "description": "Explores how entrepreneurs build ventures amid resource constraints in developing markets.",
+    "provider": "EDX",
+    "duration": "18 hours",
+    "type": "Paid",
+    "link": "https://www.edx.org/learn/entrepreneurship/harvard-university-entrepreneurship-in-emerging-economies"
+  },
+  {
+    "category": "Business & Entrepreneurship",
+    "name": "Innovation for Entrepreneurs",
+    "description": "Frameworks for identifying opportunities and driving innovation within new or existing businesses.",
+    "provider": "Udemy",
+    "duration": "1 hour",
+    "type": "Free",
+    "link": "https://www.udemy.com/course/60-day-startup-introduction-to-startups/"
+  },
+  {
+    "category": "Business & Entrepreneurship",
+    "name": "Fundamentals of Digital Marketing",
+    "description": "Google Digital Garage's free, certified intro to core digital marketing concepts.",
+    "provider": "Udemy",
+    "duration": "1 hour",
+    "type": "Free",
+    "link": "https://www.udemy.com/course/the-fundamentals-of-the-digital-marketing/"
+  },
+  {
+    "category": "Business & Entrepreneurship",
+    "name": "Business Fundamentals",
+    "description": "Core concepts in management, finance, marketing, and operations for aspiring business professionals.",
+    "provider": "EDX",
+    "duration": "18 hours",
+    "type": "Paid",
+    "link": "https://www.edx.org/learn/business-administration/university-of-british-columbia-business-foundations"
+  },
+  {
+    "category": "Healthcare & Wellness",
+    "name": "Introduction to Psychology",
+    "description": "Explores the science of the mind and behavior, from cognition to mental health basics.",
+    "provider": "EDX",
+    "duration": "50 hours",
+    "type": "Paid",
+    "link": "https://www.edx.org/learn/python/st-margarets-episcopal-school-introduction-to-psychology"
+  },
+  {
+    "category": "Healthcare & Wellness",
+    "name": "COVID-19: Tackling the Novel Coronavirus",
+    "description": "Explains the science of COVID-19, transmission, and the public health response from Imperial College experts.",
+    "provider": "FutureLearn",
+    "duration": "3 weeks, 4 hours/week",
+    "type": "Free",
+    "link": "https://www.futurelearn.com/courses/covid19-novel-coronavirus"
+  },
+  {
+    "category": "Healthcare & Wellness",
+    "name": "Health Informatics on FHIR",
+    "description": "Learn the FHIR standard used to exchange healthcare data between hospital systems.",
+    "provider": "Coursera",
+    "duration": "4 weeks, 5-7 hours/week",
+    "type": "Free",
+    "link": "https://www.coursera.org/learn/fhir"
+  },
+  {
+    "category": "Healthcare & Wellness",
+    "name": "Nutrition and Health: Macronutrients and Overnutrition",
+    "description": "Explains how carbs, fats, and proteins affect health, weight, and chronic disease risk.",
+    "provider": "EDX",
+    "duration": "52 hours",
+    "type": "Free",
+    "link": "https://www.edx.org/learn/nutrition/wageningen-university-research-nutrition-and-health-macronutrients-and-overnutrition"
+  },
+  {
+    "category": "Art & Humanities",
+    "name": "Modern Art & Ideas",
+    "description": "MoMA-led exploration of what makes modern and contemporary art meaningful and relevant.",
+    "provider": "Coursera",
+    "duration": "5 weeks",
+    "type": "Free",
+    "link": "https://www.coursera.org/learn/modern-art-ideas"
+  },
+  {
+    "category": "Art & Humanities",
+    "name": "Shakespeare's Life and Work",
+    "description": "A closer look at Shakespeare's plays, sonnets, and the world that shaped his writing.",
+    "provider": "EDX",
+    "duration": "20 hours",
+    "type": "Paid",
+    "link": "https://www.edx.org/learn/shakespeare/harvard-university-shakespeare-s-life-and-work"
+  },
+  {
+    "category": "Art & Humanities",
+    "name": "Introduction to Philosophy",
+    "description": "Introduces core philosophical questions on knowledge, ethics, mind, and existence.",
+    "provider": "Udemy",
+    "duration": "1 hour",
+    "type": "Free",
+    "link": "https://www.udemy.com/course/introduction-to-philosophy-with-plato/"
+  },
+  {
+    "category": "Art & Humanities",
+    "name": "Film, Images & Historical Interpretation",
+    "description": "Examines how film and photography shape our understanding of historical events.",
+    "provider": "Udemy",
+    "duration": "30 min",
+    "type": "Paid",
+    "link": "https://www.udemy.com/course/filmschoolcinema101/"
+  },
+  {
+    "category": "Environmental Studies",
+    "name": "The Science of Climate Change",
+    "description": "MIT-led course explaining the physics and global impact behind climate change.",
+    "provider": "EDX",
+    "duration": "16 hours",
+    "type": "Free",
+    "link": "https://www.edx.org/learn/climate-change/sdg-academy-climate-change-the-science-and-global-impact"
+  },
+  {
+    "category": "Environmental Studies",
+    "name": "Biodiversity and Conservation",
+    "description": "Covers species diversity, ecosystem health, and strategies to protect the natural world.",
+    "provider": "EDX",
+    "duration": "7 hours",
+    "type": "Paid",
+    "link": "https://www.edx.org/learn/ecosystems/ethx-environmental-dna-sensing-the-diversity-of-life-and-assessing-ecosystem-health"
+  },
+  {
+    "category": "Environmental Studies",
+    "name": "Introduction to Environmental Law and Policy",
+    "description": "Overview of the laws and policy tools used to address environmental protection.",
+    "provider": "Coursera",
+    "duration": "5 hours",
+    "type": "Free",
+    "link": "https://www.coursera.org/learn/environmental-law"
+  },
+  {
+    "category": "Environmental Studies",
+    "name": "Global Environmental Management",
+    "description": "Examines how organizations and policymakers manage environmental risks on a global scale.",
+    "provider": "FutureLearn",
+    "duration": "4 hours",
+    "type": "Paid",
+    "link": "https://www.futurelearn.com/courses/introduction-to-environmental-science"
+  },
+  {
+    "category": "Web Development",
+    "name": "Responsive Web Design + Full Curriculum",
+    "description": "freeCodeCamp's hands-on path covering HTML, CSS, JavaScript, and real coding projects.",
+    "provider": "freeCodeCamp",
+    "duration": "~300+ hrs (self-paced)",
+    "type": "Free",
+    "link": "https://www.freecodecamp.org/learn"
+  },
+  {
+    "category": "Web Development",
+    "name": "Foundations + Full Stack JavaScript",
+    "description": "The Odin Project's project-based path from web basics to full-stack JavaScript apps.",
+    "provider": "The Odin Project",
+    "duration": "~700+ hrs",
+    "type": "Free",
+    "link": "https://www.theodinproject.com"
+  },
+  {
+    "category": "Web Development",
+    "name": "CS50x: Intro to Computer Science",
+    "description": "Harvard's free self-paced version of the famous CS50 course, open to everyone.",
+    "provider": "edX",
+    "duration": "11–12 weeks",
+    "type": "Free",
+    "link": "https://cs50.harvard.edu/x"
+  },
+  {
+    "category": "Web Development",
+    "name": "CS50 Web Programming with Python & JS",
+    "description": "Harvard's course on building dynamic web apps using Python, JavaScript, and SQL.",
+    "provider": "edX",
+    "duration": "12 weeks",
+    "type": "Free",
+    "link": "https://cs50.harvard.edu/web"
+  },
+  {
+    "category": "Web Development",
+    "name": "Front-End Developer Professional Certificate (Meta)",
+    "description": "Meta-designed program covering HTML, CSS, JavaScript, and React for job-ready front-end skills.",
+    "provider": "Coursera",
+    "duration": "7 months",
+    "type": "Paid",
+    "link": "https://www.coursera.org/professional-certificates/meta-front-end-developer"
+  },
+  {
+    "category": "Web Development",
+    "name": "The Complete Web Developer Course",
+    "description": "Beginner-to-advanced bootcamp-style course covering full-stack web development from scratch.",
+    "provider": "Udemy",
+    "duration": "60+ hrs",
+    "type": "Paid",
+    "link": "https://www.udemy.com/course/the-complete-web-development-bootcamp/"
+  },
+  {
+    "category": "Web Development",
+    "name": "Full Stack Open",
+    "description": "University of Helsinki's rigorous, project-heavy course on React, Node.js, and modern web apps.",
+    "provider": "University of Helsinki",
+    "duration": "~200 hrs",
+    "type": "Free",
+    "link": "https://fullstackopen.com"
+  },
+  {
+    "category": "Web Development",
+    "name": "Learn HTML/CSS/JS (interactive)",
+    "description": "Bite-sized, interactive lessons to learn web fundamentals directly in your browser.",
+    "provider": "Scrimba",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://scrimba.com"
+  },
+  {
+    "category": "Web Development",
+    "name": "JavaScript.info",
+    "description": "A deeply detailed, free reference and tutorial covering JavaScript from basics to advanced.",
+    "provider": "JavaScript.info",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://javascript.info"
+  },
+  {
+    "category": "Programming & CS",
+    "name": "CS50x",
+    "description": "Harvard's renowned computer science course, self-paced and free for independent learners.",
+    "provider": "edX",
+    "duration": "11–12 weeks",
+    "type": "Free",
+    "link": "https://cs50.harvard.edu/x"
+  },
+  {
+    "category": "Programming & CS",
+    "name": "Python for Everybody Specialization",
+    "description": "University of Michigan's beginner-friendly path to learning Python for data and web.",
+    "provider": "Coursera",
+    "duration": "8 months (light)",
+    "type": "Free",
+    "link": "https://www.coursera.org/specializations/python"
+  },
+  {
+    "category": "Programming & CS",
+    "name": "MIT 6.0001 Intro to CS with Python",
+    "description": "MIT's official intro programming course using Python, taught by MIT faculty.",
+    "provider": "MIT OpenCourseWare",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://ocw.mit.edu"
+  },
+  {
+    "category": "Programming & CS",
+    "name": "100 Days of Code: Python Bootcamp",
+    "description": "A 100-lesson, project-based bootcamp that builds real apps as you learn Python.",
+    "provider": "Udemy",
+    "duration": "100 days",
+    "type": "Paid",
+    "link": "https://www.udemy.com/course/100-days-of-code/"
+  },
+  {
+    "category": "Programming & CS",
+    "name": "DSA (Data Structures & Algorithms)",
+    "description": "GeeksforGeeks' practice-heavy course covering arrays, trees, graphs, and coding interview prep.",
+    "provider": "GeeksforGeeks",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://www.geeksforgeeks.org"
+  },
+  {
+    "category": "Programming & CS",
+    "name": "Java Programming Masterclass",
+    "description": "Comprehensive Java course covering OOP, real projects, and interview-ready programming skills.",
+    "provider": "Udemy",
+    "duration": "80+ hrs",
+    "type": "Paid",
+    "link": "https://www.udemy.com/course/java-the-complete-java-developer-course/"
+  },
+  {
+    "category": "Data Science",
+    "name": "IBM Data Science Professional Certificate",
+    "description": "IBM's job-oriented program covering Python, SQL, data visualization, and machine learning basics.",
+    "provider": "Coursera",
+    "duration": "3–6 months",
+    "type": "Paid",
+    "link": "https://www.coursera.org/professional-certificates/ibm-data-science"
+  },
+  {
+    "category": "Data Science",
+    "name": "Google Data Analytics Professional Certificate",
+    "description": "Google-designed program teaching spreadsheets, SQL, Tableau, and R for entry-level data analyst roles.",
+    "provider": "Coursera",
+    "duration": "3–6 months",
+    "type": "Paid",
+    "link": "https://www.coursera.org/professional-certificates/google-data-analytics"
+  },
+  {
+    "category": "Data Science",
+    "name": "Data Science Specialization (Johns Hopkins)",
+    "description": "Johns Hopkins' 10-course path covering R programming, statistics, and machine learning.",
+    "provider": "Coursera",
+    "duration": "11 months",
+    "type": "Free",
+    "link": "https://www.coursera.org/specializations/jhu-data-science"
+  },
+  {
+    "category": "Data Science",
+    "name": "Kaggle Learn (Pandas, SQL, ML micro-courses)",
+    "description": "Short, hands-on micro-courses on Pandas, SQL, and machine learning with real datasets.",
+    "provider": "Kaggle",
+    "duration": "Few hrs each",
+    "type": "Free",
+    "link": "https://www.kaggle.com/learn"
+  },
+  {
+    "category": "Data Science",
+    "name": "Data Analyst with Python",
+    "description": "freeCodeCamp's practical path to data analysis using Python, Pandas, and NumPy.",
+    "provider": "freeCodeCamp",
+    "duration": "~300 hrs",
+    "type": "Free",
+    "link": "https://www.freecodecamp.org/learn/data-analysis-with-python/"
+  },
+  {
+    "category": "Data Science",
+    "name": "Data Science: R Basics (Harvard)",
+    "description": "Harvard's beginner course teaching R programming for data analysis and visualization.",
+    "provider": "edX",
+    "duration": "8 weeks",
+    "type": "Free",
+    "link": "https://www.edx.org/harvard"
+  },
+  {
+    "category": "AI & Machine Learning",
+    "name": "Machine Learning Specialization (Andrew Ng)",
+    "description": "Andrew Ng's famous, beginner-friendly intro to machine learning concepts and algorithms.",
+    "provider": "Coursera",
+    "duration": "~2 months (10 hrs/wk)",
+    "type": "Free",
+    "link": "https://www.coursera.org/specializations/machine-learning-introduction"
+  },
+  {
+    "category": "AI & Machine Learning",
+    "name": "Deep Learning Specialization",
+    "description": "Andrew Ng's in-depth path covering neural networks, CNNs, RNNs, and deep learning applications.",
+    "provider": "Coursera",
+    "duration": "~5 months",
+    "type": "Paid",
+    "link": "https://www.coursera.org/specializations/deep-learning"
+  },
+  {
+    "category": "AI & Machine Learning",
+    "name": "Practical Deep Learning for Coders",
+    "description": "fast.ai's code-first approach to deep learning, built for programmers not mathematicians.",
+    "provider": "fast.ai",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://course.fast.ai"
+  },
+  {
+    "category": "AI & Machine Learning",
+    "name": "Google Machine Learning Crash Course",
+    "description": "Google's fast, practical intro to ML concepts using TensorFlow, with real exercises.",
+    "provider": "Google",
+    "duration": "~15 hrs",
+    "type": "Free",
+    "link": "https://developers.google.com/machine-learning/crash-course"
+  },
+  {
+    "category": "AI & Machine Learning",
+    "name": "AI For Everyone (Andrew Ng)",
+    "description": "A non-technical overview of AI for professionals who want to understand its business impact.",
+    "provider": "Coursera",
+    "duration": "~6 hrs",
+    "type": "Free",
+    "link": "https://www.coursera.org/learn/ai-for-everyone"
+  },
+  {
+    "category": "AI & Machine Learning",
+    "name": "Elements of AI",
+    "description": "University of Helsinki's beginner-friendly introduction to AI concepts, no coding required.",
+    "provider": "University of Helsinki",
+    "duration": "~30 hrs",
+    "type": "Free",
+    "link": "https://www.elementsofai.com"
+  },
+  {
+    "category": "AI & Machine Learning",
+    "name": "Prompt Engineering / ChatGPT Short Courses",
+    "description": "DeepLearning.AI's quick, hands-on courses on writing effective prompts for large language models.",
+    "provider": "DeepLearning.AI",
+    "duration": "1–2 hrs each",
+    "type": "Free",
+    "link": "https://www.deeplearning.ai/short-courses/"
+  },
+  {
+    "category": "UI/UX & Design",
+    "name": "Google UX Design Professional Certificate",
+    "description": "Google-designed program covering the full UX process — research, wireframing, prototyping, and testing.",
+    "provider": "Coursera",
+    "duration": "~6 months",
+    "type": "Paid",
+    "link": "https://www.coursera.org/professional-certificates/google-ux-design"
+  },
+  {
+    "category": "UI/UX & Design",
+    "name": "Google Product Design (UX/UI) Certificate",
+    "description": "Google's certificate blending UX research with visual UI design for product careers.",
+    "provider": "Coursera",
+    "duration": "~6 months",
+    "type": "Paid",
+    "link": "https://www.coursera.org/professional-certificates/google-product-design"
+  },
+  {
+    "category": "UI/UX & Design",
+    "name": "Meta Principles of UX/UI Design",
+    "description": "Meta's short course on foundational UX/UI design principles and best practices.",
+    "provider": "Coursera",
+    "duration": "~4 weeks",
+    "type": "Free",
+    "link": "https://www.coursera.org/learn/principles-of-ux-ui-design"
+  },
+  {
+    "category": "UI/UX & Design",
+    "name": "Intro to UI Design Fundamentals",
+    "description": "A quick, beginner-friendly primer on UI design basics using Scrimba's interactive format.",
+    "provider": "Scrimba",
+    "duration": "~70 mins",
+    "type": "Free",
+    "link": "https://scrimba.com"
+  },
+  {
+    "category": "UI/UX & Design",
+    "name": "UX Academy",
+    "description": "DesignLab's structured, mentor-led bootcamp for building a professional UX design portfolio.",
+    "provider": "DesignLab",
+    "duration": "3–6 months",
+    "type": "Paid",
+    "link": "https://designlab.com"
+  },
+  {
+    "category": "UI/UX & Design",
+    "name": "Figma UI/UX Design Essentials",
+    "description": "Hands-on Figma training covering wireframes, prototyping, and modern UI design workflows.",
+    "provider": "Coursera",
+    "duration": "4 weeks",
+    "type": "Free",
+    "link": "https://www.coursera.org/specializations/beginnerfigmauiuxdesignessentials"
+  },
+  {
+    "category": "UI/UX & Design",
+    "name": "DesignCourse (YouTube)",
+    "description": "A popular YouTube channel with practical tutorials on UI/UX design and Figma.",
+    "provider": "YouTube",
+    "duration": "Ongoing",
+    "type": "Free",
+    "link": "https://www.youtube.com/@DesignCourse"
+  },
+  {
+    "category": "Digital Marketing",
+    "name": "Google Digital Marketing & E-commerce Certificate",
+    "description": "Google's program covering SEO, social media, email marketing, and e-commerce fundamentals.",
+    "provider": "Coursera",
+    "duration": "~5 months",
+    "type": "Paid",
+    "link": "https://www.coursera.org/professional-certificates/google-digital-marketing-ecommerce"
+  },
+  {
+    "category": "Digital Marketing",
+    "name": "Fundamentals of Digital Marketing",
+    "description": "Google Digital Garage's free, certified intro to core digital marketing concepts.",
+    "provider": "Google Digital Garage",
+    "duration": "~40 hrs",
+    "type": "Free",
+    "link": "https://learndigital.withgoogle.com/digitalgarage"
+  },
+  {
+    "category": "Digital Marketing",
+    "name": "Meta Blueprint – Digital Marketing Associate",
+    "description": "Meta's official certification covering advertising strategy across Facebook and Instagram.",
+    "provider": "Meta",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://www.facebook.com/business/learn"
+  },
+  {
+    "category": "Digital Marketing",
+    "name": "Digital Marketing Specialization (UIUC)",
+    "description": "University of Illinois' in-depth path covering marketing analytics, strategy, and channel planning.",
+    "provider": "Coursera",
+    "duration": "7 months",
+    "type": "Free",
+    "link": "https://www.coursera.org/specializations/digital-marketing"
+  },
+  {
+    "category": "Digital Marketing",
+    "name": "Digital Marketing Nanodegree",
+    "description": "Udacity's project-based program covering SEO, social media, and marketing analytics.",
+    "provider": "Udacity",
+    "duration": "2–3 months",
+    "type": "Paid",
+    "link": "https://www.udacity.com"
+  },
+  {
+    "category": "Digital Marketing",
+    "name": "SEO / Google Ads / Analytics Certifications",
+    "description": "Google's official certifications for search ads, analytics, and SEO best practices.",
+    "provider": "Google Skillshop",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://skillshop.exceedlms.com"
+  },
+  {
+    "category": "Business & Finance",
+    "name": "Financial Markets (Yale)",
+    "description": "Yale's popular course on how banks, stocks, insurance, and financial institutions actually work.",
+    "provider": "Coursera",
+    "duration": "~30 hrs",
+    "type": "Free",
+    "link": "https://www.coursera.org/learn/financial-markets-global"
+  },
+  {
+    "category": "Business & Finance",
+    "name": "Google Project Management Certificate",
+    "description": "Google's beginner-friendly path to core project management skills like Agile and Scrum.",
+    "provider": "Coursera",
+    "duration": "~4 months",
+    "type": "Paid",
+    "link": "https://www.coursera.org/professional-certificates/google-project-management"
+  },
+  {
+    "category": "Business & Finance",
+    "name": "Introduction to Corporate Finance (Wharton)",
+    "description": "Wharton's foundational course covering time value of money, valuation, and financial decision-making.",
+    "provider": "Coursera",
+    "duration": "~10 hrs",
+    "type": "Free",
+    "link": "https://www.coursera.org/learn/wharton-finance"
+  },
+  {
+    "category": "Business & Finance",
+    "name": "Entrepreneurship Specialization (Wharton)",
+    "description": "Wharton's practical path covering opportunity evaluation, funding, marketing, and growth strategy.",
+    "provider": "Coursera",
+    "duration": "4 months",
+    "type": "Free",
+    "link": "https://www.coursera.org/specializations/wharton-entrepreneurship"
+  },
+  {
+    "category": "Business & Finance",
+    "name": "CORe (MBA-level content)",
+    "description": "HBS Online's credential-style program covering financial accounting, economics, and analytics — MBA fundamentals.",
+    "provider": "HBS Online",
+    "duration": "8 weeks",
+    "type": "Paid",
+    "link": "https://online.hbs.edu"
+  },
+  {
+    "category": "Cybersecurity",
+    "name": "Google Cybersecurity Professional Certificate",
+    "description": "Google's beginner path into cybersecurity, covering networks, threats, and incident response.",
+    "provider": "Coursera",
+    "duration": "~6 months",
+    "type": "Paid",
+    "link": "https://www.coursera.org/professional-certificates/google-cybersecurity"
+  },
+  {
+    "category": "Cybersecurity",
+    "name": "Introduction to Cyber Security",
+    "description": "TryHackMe's beginner-friendly, hands-on intro to core cybersecurity concepts and tools.",
+    "provider": "TryHackMe",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://tryhackme.com"
+  },
+  {
+    "category": "Cybersecurity",
+    "name": "Hack The Box Academy",
+    "description": "Guided, hands-on cybersecurity training with real hacking labs for all skill levels.",
+    "provider": "Hack The Box",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://academy.hackthebox.com"
+  },
+  {
+    "category": "Cybersecurity",
+    "name": "CompTIA Security+ Prep",
+    "description": "Free video series covering everything needed to pass the CompTIA Security+ exam.",
+    "provider": "Professor Messer",
+    "duration": "~30 hrs",
+    "type": "Free",
+    "link": "https://www.professormesser.com"
+  },
+  {
+    "category": "Cybersecurity",
+    "name": "PJPT / PNPT (Practical Network Penetration Tester)",
+    "description": "Hands-on certification testing real-world network penetration testing skills, not just theory.",
+    "provider": "TCM Security",
+    "duration": "Self-paced",
+    "type": "Paid",
+    "link": "https://certifications.tcm-sec.com"
+  },
+  {
+    "category": "Cybersecurity",
+    "name": "Offensive Security Certified Professional (OSCP)",
+    "description": "The industry's toughest hands-on pentesting certification, requiring a 24-hour practical exam.",
+    "provider": "OffSec",
+    "duration": "90 days lab access",
+    "type": "Paid",
+    "link": "https://www.offsec.com/courses/pen-200/"
+  },
+  {
+    "category": "Cybersecurity",
+    "name": "Practical Ethical Hacking",
+    "description": "TCM Security's highly-rated, hands-on course covering real-world ethical hacking techniques.",
+    "provider": "TCM Security",
+    "duration": "24 hrs",
+    "type": "Paid",
+    "link": "https://www.udemy.com/course/practical-ethical-hacking/"
+  },
+  {
+    "category": "Cybersecurity",
+    "name": "HackTheBox Academy – Penetration Tester Path",
+    "description": "A structured learning path from HTB Academy to build professional penetration testing skills.",
+    "provider": "Hack The Box",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://academy.hackthebox.com"
+  },
+  {
+    "category": "Cybersecurity",
+    "name": "SANS Cyber Aces",
+    "description": "SANS Institute's free, foundational course covering operating systems, networking, and security basics.",
+    "provider": "SANS Institute",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://www.cyberaces.org"
+  },
+  {
+    "category": "Cybersecurity",
+    "name": "CISSP / CISM Prep",
+    "description": "Exam-focused prep covering the domains tested in the CISSP and CISM certifications.",
+    "provider": "Udemy",
+    "duration": "40+ hrs",
+    "type": "Paid",
+    "link": "https://www.udemy.com/course/cisspcertification/"
+  },
+  {
+    "category": "Mobile Development",
+    "name": "The Complete Flutter Development Bootcamp",
+    "description": "Build cross-platform iOS and Android apps with Flutter and Dart from scratch.",
+    "provider": "Udemy",
+    "duration": "45+ hrs",
+    "type": "Paid",
+    "link": "https://www.udemy.com/course/flutter-bootcamp-with-dart/"
+  },
+  {
+    "category": "Mobile Development",
+    "name": "iOS & Swift – The Complete Bootcamp",
+    "description": "A beginner-to-advanced bootcamp for building real iOS apps using Swift.",
+    "provider": "Udemy",
+    "duration": "60+ hrs",
+    "type": "Paid",
+    "link": "https://www.udemy.com/course/ios-13-app-development-bootcamp/"
+  },
+  {
+    "category": "Mobile Development",
+    "name": "Android Basics with Compose",
+    "description": "Google's official course teaching modern Android app development using Jetpack Compose.",
+    "provider": "Google",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://developer.android.com/courses"
+  },
+  {
+    "category": "Mobile Development",
+    "name": "React Native – The Practical Guide",
+    "description": "Build native iOS and Android apps using React and JavaScript, taught by Max Schwarzmüller.",
+    "provider": "Udemy",
+    "duration": "30+ hrs",
+    "type": "Paid",
+    "link": "https://www.udemy.com/course/react-native-the-practical-guide/"
+  },
+  {
+    "category": "Cloud & DevOps",
+    "name": "AWS Cloud Practitioner Essentials",
+    "description": "AWS's official intro to core cloud concepts, services, and pricing on AWS.",
+    "provider": "AWS Skill Builder",
+    "duration": "~6 hrs",
+    "type": "Free",
+    "link": "https://skillbuilder.aws"
+  },
+  {
+    "category": "Cloud & DevOps",
+    "name": "Google Cloud Digital Leader",
+    "description": "A non-technical overview of Google Cloud's core services and business value.",
+    "provider": "Google Cloud Skills Boost",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://www.cloudskillsboost.google"
+  },
+  {
+    "category": "Cloud & DevOps",
+    "name": "Docker & Kubernetes: The Practical Guide",
+    "description": "Learn containers, Docker Compose, and Kubernetes deployment from the ground up.",
+    "provider": "Udemy",
+    "duration": "20+ hrs",
+    "type": "Paid",
+    "link": "https://www.udemy.com/course/docker-kubernetes-the-practical-guide/"
+  },
+  {
+    "category": "Cloud & DevOps",
+    "name": "Microsoft Azure Fundamentals (AZ-900)",
+    "description": "Microsoft's official prep path for the AZ-900 exam covering core Azure concepts.",
+    "provider": "Microsoft Learn",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://learn.microsoft.com"
+  },
+  {
+    "category": "Photography",
+    "name": "Photography Basics and Beyond",
+    "description": "Michigan State's specialization covering camera settings, composition, and lighting fundamentals.",
+    "provider": "Coursera",
+    "duration": "3–6 months",
+    "type": "Free",
+    "link": "https://www.coursera.org/specializations/photography"
+  },
+  {
+    "category": "Photography",
+    "name": "Master Photography",
+    "description": "A 28-hour deep dive into lighting, composition, and editing from a 30-year pro.",
+    "provider": "Udemy",
+    "duration": "28 hrs",
+    "type": "Paid",
+    "link": "https://www.udemy.com/course/photography-learn-photography-from-pro-take-better-photos/"
+  },
+  {
+    "category": "Photography",
+    "name": "Exploring Photography (Adorama)",
+    "description": "Free YouTube series covering camera gear, technique, and creative photography tips.",
+    "provider": "YouTube",
+    "duration": "~50 hrs",
+    "type": "Free",
+    "link": "https://www.youtube.com/@AdoramaTV"
+  },
+  {
+    "category": "Photography",
+    "name": "Photography Essentials",
+    "description": "Skillshare's practical intro to camera settings, composition, and everyday photography skills.",
+    "provider": "Skillshare",
+    "duration": "~20 hrs",
+    "type": "Paid",
+    "link": "https://www.skillshare.com"
+  },
+  {
+    "category": "Photography",
+    "name": "Digital Photography",
+    "description": "Harvard Extension's course covering technical and creative fundamentals of digital photography.",
+    "provider": "Harvard Extension School",
+    "duration": "Self-paced",
+    "type": "Paid",
+    "link": "https://extension.harvard.edu"
+  },
+  {
+    "category": "Video Editing",
+    "name": "Video Editing and Production with Adobe Premiere Pro",
+    "description": "Coursera course covering the full Premiere Pro editing workflow for real projects.",
+    "provider": "Coursera",
+    "duration": "4–6 weeks",
+    "type": "Free",
+    "link": "https://www.coursera.org/courses?query=video%20editing"
+  },
+  {
+    "category": "Video Editing",
+    "name": "Premiere Pro CC – Complete Video Editing Course",
+    "description": "A complete beginner's guide to editing videos professionally in Premiere Pro.",
+    "provider": "Udemy",
+    "duration": "15–20 hrs",
+    "type": "Paid",
+    "link": "https://www.udemy.com/course/adobe_premiere_pro_2020_video_editing/"
+  },
+  {
+    "category": "Video Editing",
+    "name": "Exploring Video Editing",
+    "description": "Great Learning's quick, free intro to video editing concepts and workflow.",
+    "provider": "Great Learning Academy",
+    "duration": "Few hrs",
+    "type": "Free",
+    "link": "https://www.mygreatlearning.com/academy"
+  },
+  {
+    "category": "Video Editing",
+    "name": "DaVinci Resolve Free Tutorials",
+    "description": "Free YouTube tutorials covering DaVinci Resolve's editing, color grading, and audio tools.",
+    "provider": "YouTube",
+    "duration": "Ongoing",
+    "type": "Free",
+    "link": "https://www.youtube.com"
+  },
+  {
+    "category": "Video Editing",
+    "name": "After Effects Motion Graphics",
+    "description": "Domestika's creative course on building motion graphics and animation in After Effects.",
+    "provider": "Domestika",
+    "duration": "5–10 hrs",
+    "type": "Paid",
+    "link": "https://www.domestika.org"
+  },
+  {
+    "category": "Productivity Tools",
+    "name": "Excel Skills for Business Specialization",
+    "description": "Macquarie University's practical path covering Excel formulas, data analysis, and dashboards.",
+    "provider": "Coursera",
+    "duration": "4 months",
+    "type": "Free",
+    "link": "https://www.coursera.org/specializations/excel"
+  },
+  {
+    "category": "Productivity Tools",
+    "name": "Microsoft Excel – From Beginner to Advanced",
+    "description": "Kyle Pew's comprehensive Excel course covering formulas, pivot tables, macros, and VBA.",
+    "provider": "Udemy",
+    "duration": "17 hrs",
+    "type": "Paid",
+    "link": "https://www.udemy.com/course/microsoft-excel-2013-from-beginner-to-advanced-and-beyond/"
+  },
+  {
+    "category": "Productivity Tools",
+    "name": "Excel Free Tutorials (Leila Gharani)",
+    "description": "Popular free YouTube tutorials on advanced Excel formulas, dashboards, and productivity tricks.",
+    "provider": "YouTube",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://www.youtube.com/@LeilaGharani"
+  },
+  {
+    "category": "Productivity Tools",
+    "name": "Microsoft Learn – Excel/Office Paths",
+    "description": "Microsoft's official, free learning paths for mastering Excel and the Office suite.",
+    "provider": "Microsoft Learn",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://learn.microsoft.com"
+  },
+  {
+    "category": "Productivity Tools",
+    "name": "Google Sheets Full Course",
+    "description": "freeCodeCamp's free crash course covering formulas, functions, and data tools in Google Sheets.",
+    "provider": "freeCodeCamp",
+    "duration": "~2–4 hrs",
+    "type": "Free",
+    "link": "https://www.freecodecamp.org/news/"
+  },
+  {
+    "category": "Language Learning",
+    "name": "Duolingo (All Languages)",
+    "description": "Free, gamified lessons for learning dozens of languages at your own pace.",
+    "provider": "Duolingo",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://www.duolingo.com"
+  },
+  {
+    "category": "Language Learning",
+    "name": "Babbel",
+    "description": "Structured, conversation-focused lessons designed to build real-world speaking confidence.",
+    "provider": "Babbel",
+    "duration": "Self-paced",
+    "type": "Paid",
+    "link": "https://www.babbel.com"
+  },
+  {
+    "category": "Language Learning",
+    "name": "English for Career Development (UPenn)",
+    "description": "University of Pennsylvania's course on professional English for job searching and workplace communication.",
+    "provider": "Coursera",
+    "duration": "~19 hrs",
+    "type": "Free",
+    "link": "https://www.coursera.org/learn/careerdevelopment"
+  },
+  {
+    "category": "Language Learning",
+    "name": "Learn a Language with a Native Speaker",
+    "description": "1-on-1 lessons with native speakers for real conversational practice in any language.",
+    "provider": "italki",
+    "duration": "Flexible",
+    "type": "Paid",
+    "link": "https://www.italki.com"
+  },
+  {
+    "category": "Language Learning",
+    "name": "BBC Languages (Archived)",
+    "description": "BBC's classic free language-learning resource covering grammar, vocabulary, and audio lessons.",
+    "provider": "BBC",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://www.bbc.co.uk/languages"
+  },
+  {
+    "category": "Language Learning",
+    "name": "Busuu",
+    "description": "Interactive language lessons with feedback from a community of native speakers.",
+    "provider": "Busuu",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://www.busuu.com"
+  },
+  {
+    "category": "Exam Preparation",
+    "name": "SSC CGL/CHSL Complete Course",
+    "description": "Complete prep covering reasoning, quant, English, and GK for SSC exams.",
+    "provider": "Testbook",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://testbook.com"
+  },
+  {
+    "category": "Exam Preparation",
+    "name": "UPSC CSE Foundation",
+    "description": "Structured foundation course covering the syllabus for India's UPSC Civil Services Exam.",
+    "provider": "Unacademy",
+    "duration": "1–2 years",
+    "type": "Free",
+    "link": "https://unacademy.com"
+  },
+  {
+    "category": "Exam Preparation",
+    "name": "Banking (IBPS/SBI PO) Prep",
+    "description": "Covers quantitative aptitude, reasoning, and English for bank PO and clerk exams.",
+    "provider": "Adda247",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://www.adda247.com"
+  },
+  {
+    "category": "Exam Preparation",
+    "name": "Railway (RRB) Exam Prep",
+    "description": "Complete prep covering the syllabus for RRB Group D and NTPC exams.",
+    "provider": "BYJU'S Exam Prep",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://byjusexamprep.com"
+  },
+  {
+    "category": "Exam Preparation",
+    "name": "Current Affairs & GK Daily",
+    "description": "Daily current affairs and general knowledge updates for competitive exam preparation.",
+    "provider": "GKToday",
+    "duration": "Daily",
+    "type": "Free",
+    "link": "https://www.gktoday.in"
+  },
+  {
+    "category": "Exam Preparation",
+    "name": "NCERT-based Foundation (StudyIQ)",
+    "description": "NCERT-based foundational lessons covering key subjects for competitive exam preparation.",
+    "provider": "YouTube",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://www.youtube.com"
+  },
+  {
+    "category": "Public Speaking & Communication",
+    "name": "Dynamic Public Speaking Specialization",
+    "description": "University of Washington's structured path to becoming a confident, persuasive public speaker.",
+    "provider": "Coursera",
+    "duration": "2 months",
+    "type": "Free",
+    "link": "https://www.coursera.org/specializations/public-speaking"
+  },
+  {
+    "category": "Writing & Content Creation",
+    "name": "Content Marketing Certification",
+    "description": "HubSpot's free certification covering content strategy, blogging, and audience-building fundamentals.",
+    "provider": "HubSpot Academy",
+    "duration": "~6 hours",
+    "type": "Free",
+    "link": "https://academy.hubspot.com/courses/content-marketing"
+  },
+  {
+    "category": "Writing & Content Creation",
+    "name": "Technical Writing Courses for Engineers",
+    "description": "Google's official course on writing clear, concise technical documentation for engineers.",
+    "provider": "Google",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://developers.google.com/tech-writing"
+  },
+  {
+    "category": "Game Development",
+    "name": "Complete C# Unity Game Developer 3D",
+    "description": "GameDev.tv's hands-on course teaching Unity and C# by building real 3D games.",
+    "provider": "Udemy",
+    "duration": "40+ hrs",
+    "type": "Paid",
+    "link": "https://www.udemy.com/course/unitycourse2/"
+  },
+  {
+    "category": "Blockchain & Web3",
+    "name": "Blockchain Basics",
+    "description": "University at Buffalo's intro to how Bitcoin and Ethereum blockchains actually work.",
+    "provider": "Coursera",
+    "duration": "4 weeks",
+    "type": "Free",
+    "link": "https://www.coursera.org/learn/blockchain-basics"
+  },
+  {
+    "category": "Product Management",
+    "name": "IBM Product Manager Professional Certificate",
+    "description": "IBM's job-focused program covering product strategy, roadmaps, and the full product lifecycle.",
+    "provider": "Coursera",
+    "duration": "3 months",
+    "type": "Paid",
+    "link": "https://www.coursera.org/professional-certificates/ibm-product-manager"
+  },
+  {
+    "category": "Music Production",
+    "name": "Music Production Specialization",
+    "description": "Berklee's hands-on specialization covering recording, mixing, and producing music in a DAW.",
+    "provider": "Coursera",
+    "duration": "4 weeks",
+    "type": "Free",
+    "link": "https://www.coursera.org/specializations/music-production"
+  },
+  {
+    "category": "Programming & CS",
+    "name": "Learn Python 3",
+    "description": "Codecademy's interactive, beginner-friendly path to learning Python programming from scratch.",
+    "provider": "Codecademy",
+    "duration": "~25 hrs",
+    "type": "Free",
+    "link": "https://www.codecademy.com/learn/learn-python-3"
+  },
+  {
+    "category": "Data Science",
+    "name": "Learn SQL",
+    "description": "Hands-on, interactive lessons for learning SQL queries and database fundamentals.",
+    "provider": "Codecademy",
+    "duration": "~8 hrs",
+    "type": "Free",
+    "link": "https://www.codecademy.com/learn/learn-sql"
+  },
+  {
+    "category": "Exam Preparation",
+    "name": "SAT Prep (Official)",
+    "description": "Khan Academy's official, free SAT prep with personalized practice from College Board data.",
+    "provider": "Khan Academy",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://www.khanacademy.org/sat"
+  },
+  {
+    "category": "UI/UX & Design",
+    "name": "Canva Design School",
+    "description": "Canva's free tutorials covering graphic design basics, branding, and social media visuals.",
+    "provider": "Canva",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://www.canva.com/designschool/"
+  },
+  {
+    "category": "Programming & CS",
+    "name": "Scientific Computing with Python",
+    "description": "freeCodeCamp's project-based path covering Python for data, math, and scientific computing.",
+    "provider": "freeCodeCamp",
+    "duration": "~300 hrs",
+    "type": "Free",
+    "link": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
+  },
+  {
+    "category": "Information Technology",
+    "name": "CodeYogi — Free Coding & AI Course (Hindi)",
+    "description": "Smartphone-first free coding and AI fluency program by IIT Delhi alumni. Learn HTML, CSS, JavaScript and AI skills in Hindi — no laptop required.",
+    "provider": "CodeYogi",
+    "duration": "Self-paced",
+    "type": "Free",
+    "link": "https://codeyogi.org/"
+  },
+  {
+    "category": "Information Technology",
+    "name": "Computer Science Discoveries",
+    "description": "Code.org's free curriculum for grades 6–10. Build websites, apps, animations and games while learning core CS and AI concepts.",
+    "provider": "Code.org",
+    "duration": "Flexible / semester",
+    "type": "Free",
+    "link": "https://code.org/curriculum/computer-science-discoveries"
+  }
+]
